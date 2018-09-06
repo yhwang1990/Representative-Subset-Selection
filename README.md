@@ -59,8 +59,8 @@ To run the KnapWindowPlus (KW<sup>+</sup>) algorithm for active set selection:
     W:    int, the window size   
     d:    int, the dimension of knapsacks (costs)   
     c:    float, the average cost   
-    lambda:    float, the parameter lambda in KW<sup>+</sup>   
-    beta:    float, the parameter beta in KW<sup>+</sup>   
+    lambda:    float, the parameter lambda in KW+   
+    beta:    float, the parameter beta in KW+   
 ```
 For example,  
 ``` 
@@ -106,11 +106,11 @@ For KW<sup>+</sup>, each line of the result file is like:
 ```
     <cur_id>,<function_value>,<stream_CPU_time>,<post_CPU_time>,<num_elements>,<num_checkpoints>   
     cur_id:    the ID of the most recent element in the stream   
-    function_value:    the utility function value of the result returned by KW   
+    function_value:    the utility function value of the result returned by KW+   
     stream_CPU_time:    the CPU time elapsed for stream processing   
     post_CPU_time:    the CPU time elapsed for post-processing   
-    num_elements:    the number of elements maintained by KW<sup>+</sup>   
-    num_checkpoints:    the number of checkpoints maintained by KW<sup>+</sup>   
+    num_elements:    the number of elements maintained by KW+   
+    num_checkpoints:    the number of checkpoints maintained by KW+   
 ```
 
 ## Contact ##
