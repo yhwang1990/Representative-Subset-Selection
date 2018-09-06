@@ -71,7 +71,8 @@ To run the KnapWindow (KW) algorithm for social stream summarization:
 ```
     $ java -jar summarization-kw.jar <dataset_dir> <W> <d> <c> <lambda>   
 ```
-    The parameter setting is the same as active set selection.   
+   
+The parameter setting is the same as active set selection.   
 For example,   
 ```
     $ java -jar summarization-kw.jar twitter-sample 10000 2 0.04 0.01   
@@ -81,7 +82,8 @@ To run the KnapWindowPlus (KW<sup>+</sup>) algorithm for social stream summariza
 ```
     $ java -jar summarization-kwplus.jar <dataset_dir> <W> <d> <c> <lambda> <beta>   
 ```
-    The parameter setting is the same as active set selection.   
+   
+The parameter setting is the same as active set selection.   
 For example,   
 ```
     $ java -jar summarization-kwplus.jar twitter-sample 10000 2 0.04 0.01 0.01   
