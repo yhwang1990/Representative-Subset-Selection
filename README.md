@@ -5,7 +5,7 @@ A Java implementation of the algorithms in our TKDE paper "Efficient Representat
 JDK 8+
 
 ## Dependencies ##
-Apache Commons Math 3.6.1, downloaded from <https://mvnrepository.com/artifact/it.unimi.dsi/fastutil/7.0.11>   
+Apache Commons Math 3.6.1, downloaded from <https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.6.1>   
 Fastutil 7.0.11, downloaded from <https://mvnrepository.com/artifact/it.unimi.dsi/fastutil/7.0.11>
 
 ## Usage ##
